@@ -1,0 +1,8 @@
+target/
+.DS_Store
+var/
+/application.properties
+/activemq-data/
+/nbproject/
+Thumbs.db
+/demo/nbproject/
