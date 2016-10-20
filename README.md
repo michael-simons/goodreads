@@ -1,9 +1,18 @@
-## Architecture
+# Goodreads
+
+## Books
+
+* [97 Things Every Programmer Should Know (EN)](http://www.oreilly.com/pub/pr/2499)
+* [Kathrin Passig, Johannes Jander - Weniger schlecht programmieren (DE)](http://www.oreilly.de/book_details.php?masterid=120174)
+
+## Essays
+
+### Architecture
 
 * [Beate Ritterbach – Vererbung: für Objekte nützlich, für Werte gefährlich (DE)](http://www.heise.de/developer/artikel/Vererbung-fuer-Objekte-nuetzlich-fuer-Werte-gefaehrlich-3254433.html#mobile_detect_force_desktop)
 * [Oliver Gierke – Whoops! Where did my architecture go (EN)](http://olivergierke.de/2013/01/whoops-where-did-my-architecture-go/)
 
-## Philosophy
+### Philosophy
 
 * [Edsger W. Dijkstra – The Humble Programmer (EN)](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
 
