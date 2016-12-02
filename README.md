@@ -4,6 +4,7 @@
 
 * [97 Things Every Programmer Should Know (EN)](http://www.oreilly.com/pub/pr/2499)
 * [Kathrin Passig, Johannes Jander - Weniger schlecht programmieren (DE)](http://www.oreilly.de/book_details.php?masterid=120174)
+* [Vlad Mihalcea - High-Performance Java Persistence (EN)](https://leanpub.com/high-performance-java-persistence)
 
 ## Essays
 
