@@ -12,6 +12,7 @@
 
 * [Beate Ritterbach – Vererbung: für Objekte nützlich, für Werte gefährlich (DE)](http://www.heise.de/developer/artikel/Vererbung-fuer-Objekte-nuetzlich-fuer-Werte-gefaehrlich-3254433.html#mobile_detect_force_desktop)
 * [Oliver Gierke – Whoops! Where did my architecture go (EN)](http://olivergierke.de/2013/01/whoops-where-did-my-architecture-go/)
+* [Mark Seemann - Domain modelling with REST(EN)](http://blog.ploeh.dk/2016/12/07/domain-modelling-with-rest/)
 
 ### Concepts
 
