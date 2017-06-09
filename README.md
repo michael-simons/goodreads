@@ -7,6 +7,7 @@
 * [Vlad Mihalcea - High-Performance Java Persistence (EN)](https://leanpub.com/high-performance-java-persistence)
 * [Peter Seibel - Coders At Work (EN)](http://www.apress.com/us/book/9781430219484)
 * [Bill Karwin - SQL Antipatterns (EN)](https://pragprog.com/book/bksqla/sql-antipatterns)
+* [Eric Evans - Domain-Driven Design, Tackling Complexity in the Heart of Software (EN)](http://dddcommunity.org/book/evans_2003/)
 
 ## Essays
 
