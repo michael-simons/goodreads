@@ -8,6 +8,8 @@
 * [Peter Seibel - Coders At Work (EN)](http://www.apress.com/us/book/9781430219484)
 * [Bill Karwin - SQL Antipatterns (EN)](https://pragprog.com/book/bksqla/sql-antipatterns)
 * [Eric Evans - Domain-Driven Design, Tackling Complexity in the Heart of Software (EN)](http://dddcommunity.org/book/evans_2003/)
+* [Joshua Bloch - Effective Java, 3rd Edition](http://www.informit.com/store/effective-java-9780134685991)
+* [Rob Conery - The Imposter's Handbook: Essential CS Skills and Concepts for Self-Taught Programmers](https://bigmachine.io/products/the-imposters-handbook)
 
 ## Essays
 
