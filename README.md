@@ -11,6 +11,12 @@
 * [Joshua Bloch - Effective Java, 3rd Edition](http://www.informit.com/store/effective-java-9780134685991)
 * [Rob Conery - The Imposter's Handbook: Essential CS Skills and Concepts for Self-Taught Programmers](https://bigmachine.io/products/the-imposters-handbook)
 
+## Problemsolver
+
+I'd call those books "Problemsolver". You might not read them from front to back but as a reference for specific problems. 
+
+* [Thorben Jansen - Hibernate Tips, More than 70 solutions to common Hibernate problems](https://www.thoughts-on-java.org/hibernate-tips-book/)
+
 ## Essays
 
 ### Architecture
