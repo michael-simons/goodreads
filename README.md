@@ -20,6 +20,14 @@ I'd call those books "Problemsolver". You might not read them from front to back
 * [Thorben Jansen - Hibernate Tips, More than 70 solutions to common Hibernate problems](https://www.thoughts-on-java.org/hibernate-tips-book/)
 * [Simon Harrer, Jörg Lenhard, Linus Dietz - Java by Comparison](https://pragprog.com/book/javacomp/java-by-comparison)
 
+## Non-IT
+
+These are non IT specific books, but touch essential things in our business.
+Either the way we work together or address some common misconceptions, for example sleep being an optional aspect to live:
+
+* [Richard Sennett - Together.The Rituals, Pleasures and Politics of Cooperation](https://yalebooks.yale.edu/book/9780300188288/together)
+* [Matthew Walker - Why We Sleep](https://www.gatesnotes.com/Books/Why-We-Sleep)
+
 ## Essays
 
 ### Architecture
