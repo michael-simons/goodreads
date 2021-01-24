@@ -1,5 +1,7 @@
 # Goodreads
 
+`all.csv` contains a more or less unsorted lists of my books. Not necessary complete.
+
 ## Books
 
 * [97 Things Every Programmer Should Know (EN)](http://www.oreilly.com/pub/pr/2499)
