@@ -6,7 +6,6 @@
 
 * [97 Things Every Programmer Should Know (EN)](http://www.oreilly.com/pub/pr/2499)
 * [Kathrin Passig, Johannes Jander - Weniger schlecht programmieren (DE)](http://www.oreilly.de/book_details.php?masterid=120174)
-* [Vlad Mihalcea - High-Performance Java Persistence (EN)](https://leanpub.com/high-performance-java-persistence)
 * [Peter Seibel - Coders At Work (EN)](http://www.apress.com/us/book/9781430219484)
 * [Bill Karwin - SQL Antipatterns (EN)](https://pragprog.com/book/bksqla/sql-antipatterns)
 * [Eric Evans - Domain-Driven Design, Tackling Complexity in the Heart of Software (EN)](http://dddcommunity.org/book/evans_2003/)
@@ -14,6 +13,7 @@
 * [Rob Conery - The Imposter's Handbook: Essential CS Skills and Concepts for Self-Taught Programmers](https://bigmachine.io/products/the-imposters-handbook)
 * [Michael Nygard - Release It! Second Edition](https://pragprog.com/book/mnee2/release-it-second-edition)
 * [Kevin Behr, George Spafford, Gene Kim - The Phoenix Project](https://itrevolution.com/book/the-phoenix-project/)
+* [Martin Kleppmann - Designing Data-Intensive Applications](https://dataintensive.net/)
 
 ## Problemsolver
 
