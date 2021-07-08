@@ -1,6 +1,7 @@
 # Goodreads
 
 `all.csv` contains a more or less unsorted lists of my books. Not necessary complete.
+Here's a GraphQL frontend running against a Neo4j database to query the [complete list of books](http://neo4j-aura-quarkus-graphql.herokuapp.com/q/graphql-ui/?query=%7B%0A%20%20books%20%7B%0A%20%20%20%20title%0A%20%20%20%20authors%20%7B%0A%20%20%20%20%20%20name%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A).
 
 ## Books
 
