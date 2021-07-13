@@ -1,3 +1,4 @@
+Aaronovitch, Ben;Der Geist in der British Library;R;R
 Aaronovitch, Ben;Die Flüsse von London 1;R;R
 Aaronovitch, Ben;Die Flüsse von London 2 - Schwarzer Mond über Soho;R;R
 Aaronovitch, Ben;Die Flüsse von London 3 - Der böse Ort;R;R
@@ -7,6 +8,7 @@ Aaronovitch, Ben;Die Flüsse von London 6 - Der Galgen von Tyburn;R;R
 Aaronovitch, Ben;Die Flüsse von London 7 - Die Glocke von Whitechapel;R;R
 Aaronovitch, Ben;Die Flüsse von London 8 - Ein weißer Schwan in Tabernacle Street;R;R
 Anderson, Gail & Anderson, Paul;JavaFX - Rich Client Programming On The NetBeans Platform;S;R
+Ariely, Dan;Denken hilft zwar, nützt aber nichts - Warum wir immer wieder unvernünftige Entscheidungen treffen;S;R
 Baton, Jérôme & Van Bruggen, Rik;Learning Neo4j 3.x (2nd Edition);S;R
 Beck, Kent;Implementation Patterns;S;R
 Bennent-Vahle, Heidemarie;Glück kommt von Denken - Die Kunst, das eigene Leben in die Hand zu nehmen;S;R
@@ -19,6 +21,7 @@ Bloch, Joshua;Effectie Java (Third Edition);S;R
 Bolton, John;The Room Where It Happened - A White House Memoir;S;U
 Bostrom, Nick;Superintelligenz - Szenarien einer kommenden Revolution;S;R
 Bradbury, Ray;Die Mars-Chroniken;R;U
+Bregman, Rutger;Im Grunde gut;S;R
 Brockmeier, Kevin;Die Stadt der Toten;R;R
 Brooks, Frederick P.;The Mythical Man-Month;S;R
 Brooks, Greg & Lupton, Simon;Freddie Mercury - Ein Leben in eigenen Worten;S;R
@@ -32,16 +35,21 @@ DeMarco, Tom & Hruschka, Peter & Lister, Tim & McMenamin, Steve & Robertson, Jam
 Diangelo, Robin;White Fragility - Why It's So Hard For White People To Talk About Racism;S;R
 Die Toten Hosen;Der Krach der Republik - Das Tourfinale;S;R
 Dimery, Robert & Lydon, Michael;1001 Albums;S;R
+Dobelli, Rolf;Die Kunst des klaren Denkens;S;R
 Doyle, Arthur Conan;Das Zeichen der Vier;R;R
 Dröge, Philop;Niemandsland;S;R
 Dueck, Gunter;flach Sinn - Ich habe Hirn, ich will hier raus;S;R
+Dweck, Carol;Selbstbild;S;U
 Eckel, Bruce;Thinking In Java (3rd Edition);S;R
+Eco, Umberto;Der ewige Faschismus;S;R
 Eco, Umberto;Der Name der Rose;R;U
 Eilebrecht, Karl & Starke, Gernot;Patterns kompakt - Entwurfsmuster für effektive Software-Entwicklung;S;R
 Ellis, Bret Easton;American Psycho;R;R
 Ende, Michael;Der Wunschpunsch;R;R
 Ende, Michael;Die unendliche Geschichte;R;R
 Ende, Michael;Momo;R;R
+Enrich, David;Dark Towers;S;R
+Eschbach, Andreas;NSA;R;R
 Evans, David & Minns, David;Freddie Mercury;S;R
 Evans, Eric;Domain-Driven Design - Tackling Complexity in the Heart of Software;S;R
 Feathers, Michael C.;Effektives Arbeiten mit Legacy Code - Refactoring und Testen bestehender Software;S;R
@@ -59,14 +67,18 @@ Gharbi, Mahbouba & Koschel, Arne & Rausch, Andreas & Starke, Gernot;Basiswissen 
 Gibson, William;Quellcode;R;R
 Glukkhovsky, Dmitry;Metro 2033;R;R
 Golding, William;Herr der Fliegen;R;R
+Gorkow, Alexander;Die Kinder hören Pink Floyd;R;R
+Gorkow, Alexander;Hotel Laguna: Meine Familie am Strand;R;R
 Graeber, David;Bullshitjobs - A Theory;S;R
 Groschupf, Johannes;Berlin Prepper;R;R
 Gunn, Jacky & Jenkins, Jim;Queen;S;R
+Hadfield, Chris;Anleitung zur Schwerelosigkeit;S;R
 Haig, Matt;Reasons To Stay Alive;S;R
 Haldeman, Joe;Der ewige Krieg;R;R
 Harrer, Simon & Lenhard, Jörg & Dietz, Linus;Java By Comparison - Become A Java Craftsman in 70 Examples;S;R
 Harris, Robert;Vaterland;R;R
 Heinle, Nick & Peña, Bill;Webdesign mit JavaScript;S;U
+Heinlein, Robert A.;Fremder in einer fremden Welt;R;R
 Henny, Kevlin;97 Things Every Programmer Should Know;S;R
 Herbert, Brian & Anderson, Kevin J.;Der Wüstenplanet: Die frühen Chroniken 1 - Das Haus Atreides;R;R
 Herbert, Brian & Anderson, Kevin J.;Der Wüstenplanet: Die frühen Chroniken 2 - Das Haus Harkonnen;R;R
@@ -98,11 +110,17 @@ Kaut, Lizzy;Motör Eder und sein True Muckl;R;R;
 Kerr, Judith;Als Hitler das rosa Kaninchen stahl;R;U
 Keulemans, Maarten;Exit Mundi - Die besten Weltuntergänge;R;R
 Kim, Gene & Behr, Kevin & Spafford, George;The Phoenix Project - A Novel About IT, DevOps and Helping Your Business Win;R;R
+King, Stephen & King, Owen;Sleeping Beauties;R;R
 King, Stephen & Straub, Peter;Das schwarze Haus;R;R
 King, Stephen & Straub, Peter;Der Talisman;R;R
 King, Stephen;Amok;R;U
+King, Stephen;Atlantis;R;R
+King, Stephen;Blutige Nachrichten;R;R
 King, Stephen;Brennen muss Salem;R;R
+King, Stephen;Cujo;R;R
 King, Stephen;Das Spiel;R;R
+King, Stephen;Der Anschlag;R;R
+King, Stephen;Der Buick;R;R
 King, Stephen;Der Dunkle Turm 1 - Schwarz;R;R
 King, Stephen;Der Dunkle Turm 2 - Drei;R;R
 King, Stephen;Der Dunkle Turm 3 - tot.;R;R
@@ -110,34 +128,42 @@ King, Stephen;Der Dunkle Turm 4 - Glas;R;R
 King, Stephen;Der Dunkle Turm 5 - Wolfsmond;R;R
 King, Stephen;Der Dunkle Turm 6 - Susannah;R;R
 King, Stephen;Der Dunkle Turm 7 - Der Turm;R;R
+King, Stephen;Der Outsider;R;R
+King, Stephen;Die Arena;R;R
 King, Stephen;Die Augen des Drachen;R;R
+King, Stephen;Doctor Sleep;R;R
 King, Stephen;Dolores;R;R
 King, Stephen;Es;R;R
 King, Stephen;Feuerkind;R;R
 King, Stephen;Friedhof der Kuscheltiere;R;R
 King, Stephen;Frühling, Sommer Herbst und Tod;R;R
+King, Stephen;Im Morgengrauen;R;R
+King, Stephen;Joyland;R;R
 King, Stephen;Menschenjagd;R;R
+King, Stephen;Mind Control;R;R
 King, Stephen;Nachtschicht;R;R
 King, Stephen;Qual;R;R
 King, Stephen;Sara;R;R
 King, Stephen;Shining;R;R
+King, Stephen;Später;R;R
 King, Stephen;Stark - The Dark Half;R;R
 King, Stephen;The Girl Who Loved Tom Gordon;R;R
-King, Stephen;The Stand - Das letzte Gefecht, Band 1;R;R
-King, Stephen;The Stand - Das letzte Gefecht, Band 2;R;R
-King, Stephen;Todesmarsch;R;R
-King, Stephen;Wahn;R;R
-King, Stephen;Wind;R;R
 King, Stephen;The Green Mile 1 - Der Tod der jungen Mädchen;R;R
 King, Stephen;The Green Mile 2 - Die Maus im Todesblock;R;R
 King, Stephen;The Green Mile 3 - Coffey's Hände;R;R
 King, Stephen;The Green Mile 4 - Der qualvolle Tod;R;R
 King, Stephen;The Green Mile 5 - Reise in die Nacht;R;R
 King, Stephen;The Green Mile 6 - Coffey's Vermächtnis;R;R
+King, Stephen;The Stand - Das letzte Gefecht, Band 1;R;R
+King, Stephen;The Stand - Das letzte Gefecht, Band 2;R;R
+King, Stephen;Todesmarsch;R;R
+King, Stephen;Wahn;R;R
+King, Stephen;Wind;R;R
 Kleppmann, Martin;Designing Data-Intensive Applications;S;R
 Kling, Marc-Uwe;Die Känguru-Trilogie;R;R
 Kling, Marc-Uwe;Qualityland 2.0;R;R
 Kling, Marc-Uwe;Qualityland;R;R
+Knopp, Guido;Unser Jahrhundert - Deutsche Schicksalstage;S;R
 Kollewe, Tobias & Keukert, Michael;Praxiswissen E-Commerce - Das Handbuch für den erfolgreichen Online-Shop;S;U
 Kozlowski, Pawel & Darwin, Peter Bacon;Mastering Web Applications Development with AngularJS;S;U
 Köbler, Niko;Serverless Computing in der AWS Cloud;S;R
@@ -145,6 +171,9 @@ Kübeck, Sebastian;Web-Sicherheit - Wie Sie Ihre Webanwendungen sicher vor Angri
 Lemmy & Garza, Janiss;White Line Fever;S;R
 Leopold, Klaus & Kaltenecker, Siegfried;Kanban in der IT;S;R
 Lerdorf, Rasmus & Tatroe, Kevin;Programmieren mit PHP;S;R
+Levi, Primo;Die Atempause;R;R
+Levi, Primo;Die Untergegangen und die Geretteten;S;R
+Levi, Primo;Ist das ein Mensch?;S;R
 Levitin, Anany & Levitin, Maria;Algorithmic Puzzles;S;U
 Lilienthal, Carola;Langlebige Software-Architekturen - Technische Schulden analysieren, begrenzen und abbauen;S;R
 Lindsay, Jeff;Darkly Dreaming Dexter;R;R
@@ -158,17 +187,28 @@ Martin, George R.R.;A Song Of Ice And Fire 3 - A Storm Of Swords;R;R
 Martin, George R.R.;A Song Of Ice And Fire 4 - A Feast For Crows;R;R
 Martin, George R.R.;A Song Of Ice And Fire 5 - A Dance With Dragons;R;R
 Mason,Paul;Klare, Lichte Zukunft - Eine Radikale Verteidigung des Humanismus;S;R
+Mayonga, David & Frenzel, Nils;"Ein Neger darf nicht neben mir sitzen" - Eine deutsche Geschichte;S;R
 McLuhan, Marshall & Fiore, Quentin;The Medium Is THe Massage;S;U
 McLuhan, Marshall;The Gutenberg Galaxy;S;U
+Merridale, Catherine;Lenins Zug - Eine Reise in die Revolution;R;U
 Meyberg, Kurt & Vachenauer, Peter;Höhere Mathematik 1;S;R
 Mihalcea, Vlad;High-Performance Java Persistence;S;U
+Moers, Walter;Adolf - Der Bunker;C;R
+Moers, Walter;Adolf Teil 2;C;R
+Moers, Walter;Adolf;C;R
+Moers, Walter;Der alte Sack, ein kleines Arschloch und andere Höhepunkte des Kapitalismus;C;R
+Moers, Walter;Die 13 1/2 Leben des Käpt'n Blaubär;R;R
 Monadjemi, Peter & Winkler, Eckart;Jetzt lerne ich C;S;R
 Mouat, Adrian;Docker;S;U
+Möllers, Christian;Das Grundgesetz - Geschichte und Inhalt;S;R
 Needham, Mark & Hodler, Amy E.;Graph Algorithms;S;R
 Nerz, Dominik;Gestürzt - Eine Geschichte aus dem Radsport;S;R
 Nestmeyer, Ralf;Die Toten vom Mont Ventoux;R;R
+Nguyen-Kim, Mai Thi;Komisch, alles chemisch!;S;R
 Niederst, Jennifer;Webdesign In A Nutshell (Deutsche Ausgabe);S;R
 Nielsen, Jakob & Loranger, Hoa;Web Usability;S;U
+Nocun, Katharina;Die Daten, die ich rief - Wie wir unsere Freiheit an Großkonzerne verkaufen;S;R
+Obama, Barack;Ein verheißenes Land;S;R
 Oehmke, Philipp;Die Toten Hosen - Am Anfang war der Lärm;S;R
 Oesterle,Kurt;Der Wunschbruder;R;R
 Ogette, Tupoka;exit RACISM;S;R
@@ -176,10 +216,16 @@ Orwell,George;Farm der Tiere - Ein Märchen;R;R
 Parkinson, C. Northcode;Parkinson's Law and other studies in administration;S;R
 Parr, Terence;The Definitive ANTLR Reference;S;R
 Passig, Kathrin & Jander, Johannes;Weniger schlecht programmieren;S;R
+Passmann, Sophie;Alte weisse Männer - Ein Schlichtungsversuch;S;R
 Pichler, Roman;Scrum - Agiles Projektmanagement erfolgreich umsetzen;S;R
+Powell, James Lawrence;2084;R;R
 Puzo,Mario;Der Pate;R;U
 Redmon, Eric & Wilson, Jim R.;Sieben Wochen, sieben Datenbanken;S;R
+Riemek, Jennifer & Kuhn, Michael;Wir waren noch so jung;R;R
+Rifkin, Jeremy;Der Europäische Traum - Die Vision einer leisen Supermacht;U;R
 Robinson, Ian & Webber, Jim & Eifrem, Emil;Graph Databases;S;R
+Rosling, Hans & Rosling Rönnlund, Anna & Rosling, Ola;Factfulness. Wie wir lernen, die Welt so zu sehen, wie sie wirklich ist;S;R
+Ruf, Christoph & Sundermeyer;In der NPD - Reisen in die National befreite Zone;S;U
 Sagan,Peter;Meine Welt;S;R
 Salinger,J.D.;Der Fänger im Roggen;R;R
 Sammer, Isolde;Die Stille nach dem Schrei;R;R
@@ -198,15 +244,21 @@ Simons, Michael;Spring Boot 2 - Moderne Softwareentwicklung mit Spring 5;S;R
 Sky, Rick;Freddie Mercury - Das Leben des legendären Popstars;S;R
 Snowden, Edward;Permanent Record - Meine Geschichte;S;R
 Snyder, Timothy;Der Weg in die Unfreiheit - Russland, Europa, Amerika;S;R
+Sonneborn, Martin;Herr Sonneborn geht nach Brüssel;S;R
+Speit, Andreas;Reichsbürger - Die unterschätzte Gefahr;S;R
 Stapel, Ingmar;Roboter-Autos mit dem Raspberry PI - Planen, bauen, programmieren;S;U
 Starke, Gernot & Simons, Michael & Zörner, Stefan & Müller, Ralf D.;arc42 by Example;S;R
 Starke, Gernot;Effektive Software-Architekturen;S;R
+Steffny, Herbert;Das große Laufbuch;S;R
 Steinbeck, John;Früchte des Zorns;R;R
 Stern, Arno & Stern, André;Mein Vater mein Freund - Das Geheimnis glücklicher Söhne;S;R
 Taleb, Nassim Nicholas;Der schwarze Schwan - Die Macht höchst unwahrscheinlicher Ereignisse;S;R
 tante;connected;S;R
 The Oatmeal;5 Very Good Reasons To Punch A Dolphin In The Mouth;C;R
+Treber, Leonie;Mythos Trümmerfrauen;S;U
 Trump, Mary L.;Too Much and Never Enough - How My Family Created The World's Most Dangerous Man;S;R
+Turnquist, Greg L.;Hacking with Spring Boot 2.3 - Reactive Edition;S;R
+Turnquist, Greg L.;Hacking with Spring Boot 2.4 - Classic Edition;S;U
 Twain, Mark;Tom Sawyer;R;U
 Urma, Raoul-Gabriel;Fusco, Mario;Mycroft, Alan;Java 8 in Action;S;R
 Various;Das kleine Sabotage-Handbuch von 1944;S;R
@@ -216,30 +268,22 @@ Vernon, Vaughn;Implementing Domain-Driven Design;S;R
 Viegener, Susanne;Das Aachener Märchenbuch - Sagen, Legendne und Märchen aus Aachen neu erzählt;M;R
 Vigenschow, Uwe & Schneider, Björn & Meyrose, Ines;Soft Skills für IT-Führungskräfte und Projektleiter;S;R
 Vigenschow, Uwe & Schneider, Björn & Meyrose, Ines;Soft Skills für Softwareentwickler;S;R
+Vogt, Christian;Ace in Space: Trident;R;R
 Vogt, Judith & Vogt, Christian;Ace In Space;R;R
 Vogt, Judith & Vogt, Christian;Die 13 Gezeichneten 1;R;R
 Vogt, Judith & Vogt, Christian;Die 13 Gezeichneten 2 - Die verkehrte Stadt;R;R
 Vogt, Judith & Vogt, Christian;Die 13 Gezeichneten 3 - Der krumme Mann der Tiefe;R;R
+Von Schirach, Ferdinand;Der Fall Collini;R;R
+Von Schirach, Ferdinand;Kaffee und Zigaretten;R;R
+Von Schirach, Ferdinand;Schuld;R;R
 Vos, Johan & Gao, Weiqi & Chin, Stephen & Iverson, Dean & Weaver, James;Pro JavaFX 8;S;R
+Walker, Matthew;Das große Buch vom Schlaf;S;R
 Walls,Craig;Spring In Action (Fourth Edition);S;R
 Wilber, Ken;Integrale Meditation;S;R
 Wolf, Winfried;Eisenbahn und Autowhan - Personen und Gütertranspost auf Schiene und Straße;S;U
 Wolff, Eberhard;Microservices Primer - A Short Overview;S;R
+Zeh, Juli;Corpus Delicti: Ein Prozess;R;R
+Zeh, Juli;Über Menschen;R;R
 Zeigermann, Oliver & Hartmann, Nils;React - Die praktische Einführung in React, React Router und Redux;S;U
 Zweig, Stefan;Angst;R;R
 Üblacker, Stefan;Das Buch Ä - Die von Die Ärzte autorisierte Biographie;S;R
-Obama, Barack;Ein verheißenes Land;S;R
-Powell, James Lawrence;2084;R;R
-Vogt, Christian;Ace in Space: Trident;R;R
-King, Stephen;Später;R;R
-Dobelli, Rolf;Die Kunst des klaren Denkens;S;R
-Enrich, David;Dark Towers;S;R
-Aaronovitch, Ben;Der Geist in der British Library;R;R
-Gorkow, Alexander;Die Kinder hören Pink Floyd;R;R
-Zeh, Juli;Über Menschen;R;R
-Gorkow, Alexander;Hotel Laguna: Meine Familie am Strand;R;R
-Turnquist, Greg L.;Hacking with Spring Boot 2.3 - Reactive Edition;S;R
-Turnquist, Greg L.;Hacking with Spring Boot 2.4 - Classic Edition;S;U
-Zeh, Juli;Corpus Delicti: Ein Prozess;R;R
-Rosling, Hans & Rosling Rönnlund, Anna & Rosling, Ola;Factfulness. Wie wir lernen, die Welt so zu sehen, wie sie wirklich ist;S;R
-Eco, Umberto;Der ewige Faschismus;S;R
