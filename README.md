@@ -15,6 +15,7 @@ Here's a browseable, interactive list of all books: [Neo4j Aura meets Quarkus](h
 * [Michael Nygard - Release It! Second Edition](https://pragprog.com/book/mnee2/release-it-second-edition)
 * [Kevin Behr, George Spafford, Gene Kim - The Phoenix Project](https://itrevolution.com/book/the-phoenix-project/)
 * [Martin Kleppmann - Designing Data-Intensive Applications](https://dataintensive.net/)
+* [Marianne Bellotti - Kill It With Fire](https://nostarch.com/kill-it-fire)
 
 ## Problemsolver
 
