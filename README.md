@@ -3,6 +3,19 @@
 `all.csv` contains a more or less unsorted lists of my books. Not necessary complete.
 Here's a browseable, interactive list of all books: [Neo4j Aura meets Quarkus](https://neo4j-aura-quarkus-graphql.herokuapp.com).
 
+
+## Use SQLite to query the database
+
+```
+sqlite3 :memory: \
+ 'CREATE table books(author VARCHAR(256), title VARCHAR(256), type VARCHAR(1), state VARCHAR(1))' \
+ '.mode csv' \
+ '.separator ;' \
+ '.headers off' \
+ '.import all.csv books' \
+ "SELECT title FROM books WHERE author like '%King%' ORDER by title"
+```
+
 ## Books
 
 * [97 Things Every Programmer Should Know (EN)](http://www.oreilly.com/pub/pr/2499)
