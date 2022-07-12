@@ -51,6 +51,7 @@ Either the way we work together or address some common misconceptions, for examp
 ### Best practices
 
 * [Jonathan Giles - Java Best Practices](http://java.jonathangiles.net)
+* [Jon P Smith - What makes a good software library?](https://www.thereformedprogrammer.net/what-makes-a-good-software-library/)
 
 ### Architecture
 
