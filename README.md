@@ -46,7 +46,11 @@ Either the way we work together or address some common misconceptions, for examp
 * [Matthew Walker - Why We Sleep](https://www.gatesnotes.com/Books/Why-We-Sleep)
 * [Robin DiAngelo - White Fragility](https://www.tolerance.org/magazine/summer-2019/whats-my-complicity-talking-white-fragility-with-robin-diangelo) (A recommended read for all white developers and a good starter to understand why we need to work actively against racism and not manifest structural racism in our software based solutions)
 
-## Essays
+## Essays and other articles
+
+### Best practices
+
+* [Jonathan Giles - Java Best Practices](http://java.jonathangiles.net)
 
 ### Architecture
 
