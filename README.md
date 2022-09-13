@@ -29,6 +29,7 @@ sqlite3 :memory: \
 * [Kevin Behr, George Spafford, Gene Kim - The Phoenix Project](https://itrevolution.com/book/the-phoenix-project/)
 * [Martin Kleppmann - Designing Data-Intensive Applications](https://dataintensive.net/)
 * [Marianne Bellotti - Kill It With Fire](https://nostarch.com/kill-it-fire)
+* [DevOps Tools for Java Developers (Various authors)](https://www.oreilly.com/library/view/devops-tools-for/9781492084013/)
 
 ## Problemsolver
 
