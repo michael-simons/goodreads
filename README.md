@@ -10,7 +10,7 @@ Here's a browseable, interactive list of all books: [Neo4j Aura meets Quarkus](h
 sqlite3 :memory: \
  '.mode csv' \
  '.separator ;' \
- '.import all.csv books' \
+ '.import "|curl -s https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv" books' \
  "SELECT title FROM books WHERE author like '%King%' ORDER by title"
 ```
 
