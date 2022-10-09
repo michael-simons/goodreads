@@ -8,12 +8,16 @@ Here's a browseable, interactive list of all books: [Neo4j Aura meets Quarkus](h
 
 ```
 sqlite3 :memory: \
- 'CREATE table books(author VARCHAR(256), title VARCHAR(256), type VARCHAR(1), state VARCHAR(1))' \
  '.mode csv' \
  '.separator ;' \
- '.headers off' \
  '.import all.csv books' \
  "SELECT title FROM books WHERE author like '%King%' ORDER by title"
+```
+
+## Resort the list of all books
+
+```
+all=`cat all.csv` && (echo $all | head -n 1 && echo $all | tail -n +2 | sort -f) > all.csv
 ```
 
 ## Books
