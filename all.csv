@@ -22,6 +22,7 @@ Bloch, Joshua;Effectie Java (3. Auflage, deutsche Ausgabe);S;R
 Bloch, Joshua;Effectie Java (Third Edition);S;R
 Bolton, John;The Room Where It Happened - A White House Memoir;S;U
 Bostrom, Nick;Superintelligenz - Szenarien einer kommenden Revolution;S;R
+Bradbury, Ray;Das Böse kommt auf leisen Sohlen;R;R
 Bradbury, Ray;Die Mars-Chroniken;R;U
 Bregman, Rutger;Im Grunde gut;S;R
 Brockmeier, Kevin;Die Stadt der Toten;R;R
@@ -31,12 +32,15 @@ Burns, Ed & Schalk, Chris;JavaServer Faces 2.0 - The Complete Reference;S;R
 Carrol, Lewis & Rieder, Floor;Alice im Wunderland & Alice hinter den Spiegel;R;R
 Chacon, Scott & Straub, Ben;Pro Git;S;R
 Chappel, Emily;Where There's A Will - Hope, Grief and Endurance in A Cycle Race Across a Continent;S;R
+Chin, Stephen & McKay, Melissa & Ruiz, Ixchel & Sadogursky, Baruch;DevOps Tools For Java Developers - Best Practices From Source Code To Production Containers;S;R
 Chizmar, Richard;Gwendys Zauberfeder;R;R
 Chua, Amy;Die Mutter des Erfolgs - Wie ich meinen Kindern das Siegen beibrachte;S;R
 Cleave, Paul;Das Haus des Todes;R;R
 DeMarco, Tom & Hruschka, Peter & Lister, Tim & McMenamin, Steve & Robertson, James & Robertson, Suzanne;Adrenalin Junkies & Formular Zombies - Typisches Verhalten in Projekten;S;R
 Deonn, Tracy;Legendborn;R;R
 Diangelo, Robin;White Fragility - Why It's So Hard For White People To Talk About Racism;S;R
+Dick, Philip K.;Der dunkle Schirm;R;R
+Dick, Philip K.;Nach der Bombe;R;R
 Die Toten Hosen;Der Krach der Republik - Das Tourfinale;S;R
 Dimery, Robert & Lydon, Michael;1001 Albums;S;R
 Dobelli, Rolf;Die Kunst des klaren Denkens;S;R
@@ -71,6 +75,7 @@ Geschke, Linus;Und am Morgen waren sie tot;R;U
 Gharbi, Mahbouba & Koschel, Arne & Rausch, Andreas & Starke, Gernot;Basiswissen für Software-Architekten;S;U
 Gibson, William;Quellcode;R;R
 Glukkhovsky, Dmitry;Metro 2033;R;R
+Gnu;Du schaffst das (nicht);S;R
 Golding, William;Herr der Fliegen;R;R
 Gorkow, Alexander;Die Kinder hören Pink Floyd;R;R
 Gorkow, Alexander;Hotel Laguna: Meine Familie am Strand;R;R
@@ -100,10 +105,12 @@ Herbert, Frank;Der Wüstenplanet 4 - Der Gottkaiser des Wüstenplaneten;R;R
 Herbert, Frank;Der Wüstenplanet 5 - Die Ketzer des Wüstenplaneten;R;R
 Herbert, Frank;Der Wüstenplanet 6 - Die Ordensburg des Wüstenplaneten;R;R
 Herold, Helmut;C-Kompaktreferenz;S;R
+Herrmann, Ulrike;Das Ende des Kapitalismus;S;R
 Hespers, Nora;Mein Opa, sein Widerstand gegen die Nazis und ich;R;R
 Hince, Peter;Queen Unseen - My Life With The Greatest Rock Band Of The 20th Century;S;R
 Hobbes, Thomes;Leviathan;S;U
 Hoey, J. Kelly;Build your dream network;S;R
+Houellebecq, Michel;Vernichten;R;R
 Hruschka, Peter & Starke, Gernot;Knigge für Softwarearchitekten Reloaded;S;R
 Hruschka, Peter;Business Analysis und Requirements Engineering;S;R
 Hutton, Jim & Wapshott, Tim;Freddie Mercury und ich;S;R
@@ -145,6 +152,7 @@ King, Stephen;Die Augen des Drachen;R;R
 King, Stephen;Doctor Sleep;R;R
 King, Stephen;Dolores;R;R
 King, Stephen;Es;R;R
+King, Stephen;Fairy Tale;R;R
 King, Stephen;Feuerkind;R;R
 King, Stephen;Friedhof der Kuscheltiere;R;R
 King, Stephen;Frühling, Sommer Herbst und Tod;R;R
@@ -214,6 +222,7 @@ Moers, Walter;Der alte Sack, ein kleines Arschloch und andere Höhepunkte des Ka
 Moers, Walter;Die 13 1/2 Leben des Käpt'n Blaubär;R;R
 Möllers, Christian;Das Grundgesetz - Geschichte und Inhalt;S;R
 Monadjemi, Peter & Winkler, Eckart;Jetzt lerne ich C;S;R
+Monchi;Niemals satt: Über den Hunger aufs Leben und 182 Kilo auf der Waage;S;R
 Moritz, Lisa Maria;Sketchnotes in der IT - Abstrakte Themen mit Leichtigkeit visualisieren;S;R
 Mouat, Adrian;Docker;S;U
 Needham, Mark & Hodler, Amy E.;Graph Algorithms;S;R
@@ -228,6 +237,7 @@ Oehmke, Philipp;Die Toten Hosen - Am Anfang war der Lärm;S;R
 Oesterle,Kurt;Der Wunschbruder;R;R
 Ogette, Tupoka;exit RACISM;S;R
 Orwell,George;Farm der Tiere - Ein Märchen;R;R
+Ostermair, Markus;Der Sandler;R;R
 Parkinson, C. Northcode;Parkinson's Law and other studies in administration;S;R
 Parr, Terence;The Definitive ANTLR Reference;S;R
 Passig, Kathrin & Jander, Johannes;Weniger schlecht programmieren;S;R
@@ -246,6 +256,7 @@ Salinger,J.D.;Der Fänger im Roggen;R;R
 Sammer, Isolde;Die Stille nach dem Schrei;R;R
 Schäfer, Frank;Hear 'Em All;S;R
 Schäfer,Robert;Tourismus und Authentizität;S;U
+Schätzing, Frank;Keine Angst;R;R
 Schiffmann, Wolfram & Schmitz, Robert;Technische Informatik I;S;R
 Schink,Nena;Unfollow - Wie Instagram unser Leben zerstört;S;R
 Schmeh, Klaus;Kryptografie - Verfahren, Protokolle, Infrastrukturen;S;U
@@ -278,6 +289,7 @@ Turnquist, Greg L.;Hacking with Spring Boot 2.3 - Reactive Edition;S;R
 Turnquist, Greg L.;Hacking with Spring Boot 2.4 - Classic Edition;S;U
 Twain, Mark;Tom Sawyer;R;U
 Üblacker, Stefan;Das Buch Ä - Die von Die Ärzte autorisierte Biographie;S;R
+Uhly, Steven;Die Summe des Ganzen;R;R
 Urma, Raoul-Gabriel & Fusco, Mario & Mycroft, Alan;Java 8 in Action;S;R
 Various;Das kleine Sabotage-Handbuch von 1944;S;R
 Various;Puschkin-Märchen;M;R
@@ -309,12 +321,3 @@ Zeh, Juli;Nullzeit;R;R
 Zeh, Juli;Über Menschen;R;R
 Zeigermann, Oliver & Hartmann, Nils;React - Die praktische Einführung in React, React Router und Redux;S;U
 Zweig, Stefan;Angst;R;R
-Chin, Stephen & McKay, Melissa & Ruiz, Ixchel & Sadogursky, Baruch;DevOps Tools For Java Developers - Best Practices From Source Code To Production Containers;S;R
-Uhly, Steven;Die Summe des Ganzen;R;R
-Dick, Philip K.;Der dunkle Schirm;R;R
-Dick, Philip K.;Nach der Bombe;R;R
-Gnu;Du schaffst das (nicht);S;R
-Schätzing, Frank;Keine Angst;R;R
-Monchi;Niemals satt: Über den Hunger aufs Leben und 182 Kilo auf der Waage;S;R
-Houellebecq, Michel;Vernichten;R;R
-King, Stephen;Fairy Tale;R;R
