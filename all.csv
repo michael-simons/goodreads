@@ -8,6 +8,7 @@ Aaronovitch, Ben;Die Flüsse von London 5 - Fingerhut-Sommer;R;R
 Aaronovitch, Ben;Die Flüsse von London 6 - Der Galgen von Tyburn;R;R
 Aaronovitch, Ben;Die Flüsse von London 7 - Die Glocke von Whitechapel;R;R
 Aaronovitch, Ben;Die Flüsse von London 8 - Ein weißer Schwan in Tabernacle Street;R;R
+Ambler, Scott W. & Sadalage, Pramod;Refactoring Databases - Evolutionary Database Design;S;U
 Anderson, Gail & Anderson, Paul;JavaFX - Rich Client Programming On The NetBeans Platform;S;R
 Ariely, Dan;Denken hilft zwar, nützt aber nichts - Warum wir immer wieder unvernünftige Entscheidungen treffen;S;R
 Baton, Jérôme & Van Bruggen, Rik;Learning Neo4j 3.x (2nd Edition);S;R
@@ -71,9 +72,9 @@ Fowler, Martin;Patterns Of Enterprise Application Architecture;S;U
 Freeman, Eric & Freeman, Elisabeth & Sierra, Kathy, Bates, Bert;Head First Design Patterns;S;R
 Fromm, Erich;Haben oder Sein - Die seelischen Grundlagen einer neuen Gesellschaft;S;R
 Fulton, Hal;The Ruby Way (2nd Edition);S;R
+Gaiman, Neil;The Sandman, Vol. 1: Preludes & Nocturnes;R;R
 Gaiman, Neil;The Sandman, Vol. 10: The Wake;R;R
 Gaiman, Neil;The Sandman, Vol. 11: Endless Nights;R;R
-Gaiman, Neil;The Sandman, Vol. 1: Preludes & Nocturnes;R;R
 Gaiman, Neil;The Sandman, Vol. 2: The Doll's House;R;R
 Gaiman, Neil;The Sandman, Vol. 3: Dream Country;R;R
 Gaiman, Neil;The Sandman, Vol. 4: Season Of The Mist;R;R
@@ -123,8 +124,8 @@ Hince, Peter;Queen Unseen - My Life With The Greatest Rock Band Of The 20th Cent
 Hobbes, Thomes;Leviathan;S;U
 Hoey, J. Kelly;Build your dream network;S;R
 Houellebecq, Michel;Vernichten;R;R
-Hruschka, Peter & Starke, Gernot;Knigge für Softwarearchitekten Reloaded;S;R
 Hruschka, Peter;Business Analysis und Requirements Engineering;S;R
+Hruschka, Peter & Starke, Gernot;Knigge für Softwarearchitekten Reloaded;S;R
 Hutton, Jim & Wapshott, Tim;Freddie Mercury und ich;S;R
 Huxley, Aldous;Schöne neue Welt;R;R
 Ischinger, Wolfgang;Welt in Gefahr - Deutschland und Europa in unsicheren Zeiten;S;R
@@ -136,11 +137,6 @@ Kaut, Lizzy;Motör Eder und sein True Muckl;R;R
 Kerr, Judith;Als Hitler das rosa Kaninchen stahl;R;U
 Keulemans, Maarten;Exit Mundi - Die besten Weltuntergänge;R;R
 Kim, Gene & Behr, Kevin & Spafford, George;The Phoenix Project - A Novel About IT, DevOps and Helping Your Business Win;R;R
-King, Stephen & Chizmar, Richard;Gwendys letzte Aufgabe;R;R
-King, Stephen & Chizmar, Richard;Gwendys Wunschkasten;R;R
-King, Stephen & King, Owen;Sleeping Beauties;R;R
-King, Stephen & Straub, Peter;Das schwarze Haus;R;R
-King, Stephen & Straub, Peter;Der Talisman;R;R
 King, Stephen;Amok;R;U
 King, Stephen;Atlantis;R;R
 King, Stephen;Billy Summers;R;R
@@ -190,10 +186,15 @@ King, Stephen;The Stand - Das letzte Gefecht, Band 2;R;R
 King, Stephen;Todesmarsch;R;R
 King, Stephen;Wahn;R;R
 King, Stephen;Wind;R;R
+King, Stephen & Chizmar, Richard;Gwendys letzte Aufgabe;R;R
+King, Stephen & Chizmar, Richard;Gwendys Wunschkasten;R;R
+King, Stephen & King, Owen;Sleeping Beauties;R;R
+King, Stephen & Straub, Peter;Das schwarze Haus;R;R
+King, Stephen & Straub, Peter;Der Talisman;R;R
 Kleppmann, Martin;Designing Data-Intensive Applications;S;R
 Kling, Marc-Uwe;Die Känguru-Trilogie;R;R
-Kling, Marc-Uwe;Qualityland 2.0;R;R
 Kling, Marc-Uwe;Qualityland;R;R
+Kling, Marc-Uwe;Qualityland 2.0;R;R
 Knopp, Guido;Unser Jahrhundert - Deutsche Schicksalstage;S;R
 Köbler, Niko;Serverless Computing in der AWS Cloud;S;R
 Kollewe, Tobias & Keukert, Michael;Praxiswissen E-Commerce - Das Handbuch für den erfolgreichen Online-Shop;S;U
@@ -222,14 +223,15 @@ Martin, George R.R.;A Song Of Ice And Fire 4 - A Feast For Crows;R;R
 Martin, George R.R.;A Song Of Ice And Fire 5 - A Dance With Dragons;R;R
 Mason,Paul;Klare, Lichte Zukunft - Eine Radikale Verteidigung des Humanismus;S;R
 Mayonga, David & Frenzel, Nils;Ein Neger darf nicht neben mir sitzen - Eine deutsche Geschichte;S;R
-McLuhan, Marshall & Fiore, Quentin;The Medium Is THe Massage;S;U
 McLuhan, Marshall;The Gutenberg Galaxy;S;U
+McLuhan, Marshall & Fiore, Quentin;The Medium Is THe Massage;S;U
 Merridale, Catherine;Lenins Zug - Eine Reise in die Revolution;R;U
 Meyberg, Kurt & Vachenauer, Peter;Höhere Mathematik 1;S;R
 Mihalcea, Vlad;High-Performance Java Persistence;S;U
+Mira, Aiki;Neon Grau - Game Over im Neurosubstrat;R;R
+Moers, Walter;Adolf;C;R
 Moers, Walter;Adolf - Der Bunker;C;R
 Moers, Walter;Adolf Teil 2;C;R
-Moers, Walter;Adolf;C;R
 Moers, Walter;Der alte Sack, ein kleines Arschloch und andere Höhepunkte des Kapitalismus;C;R
 Moers, Walter;Die 13 1/2 Leben des Käpt'n Blaubär;R;R
 Möllers, Christian;Das Grundgesetz - Geschichte und Inhalt;S;R
@@ -263,12 +265,14 @@ Rifkin, Jeremy;Der Europäische Traum - Die Vision einer leisen Supermacht;S;U
 Robinson, Ian & Webber, Jim & Eifrem, Emil;Graph Databases;S;R
 Rosling, Hans & Rosling Rönnlund, Anna & Rosling, Ola;Factfulness. Wie wir lernen, die Welt so zu sehen, wie sie wirklich ist;S;R
 Rothfuss, Patrick;Der Name des Windes;R;R
+Rothfuss, Patrick;Die Furcht des Weisen (1);R;R
+Rothfuss, Patrick;Die Furcht des Weisen (2);R;R
 Ruf, Christoph & Sundermeyer;In der NPD - Reisen in die National befreite Zone;S;U
 Sagan,Peter;Meine Welt;S;R
 Salinger,J.D.;Der Fänger im Roggen;R;R
 Sammer, Isolde;Die Stille nach dem Schrei;R;R
 Schäfer, Frank;Hear 'Em All;S;R
-Schäfer,Robert;Tourismus und Authentizität;S;U
+Schäfer, Robert;Tourismus und Authentizität;S;U
 Schätzing, Frank;Keine Angst;R;R
 Schiffmann, Wolfram & Schmitz, Robert;Technische Informatik I;S;R
 Schink,Nena;Unfollow - Wie Instagram unser Leben zerstört;S;R
@@ -287,8 +291,8 @@ Snyder, Timothy;Der Weg in die Unfreiheit - Russland, Europa, Amerika;S;R
 Sonneborn, Martin;Herr Sonneborn geht nach Brüssel;S;R
 Speit, Andreas;Reichsbürger - Die unterschätzte Gefahr;S;R
 Stapel, Ingmar;Roboter-Autos mit dem Raspberry PI - Planen, bauen, programmieren;S;U
-Starke, Gernot & Simons, Michael & Zörner, Stefan & Müller, Ralf D.;arc42 by Example;S;R
 Starke, Gernot;Effektive Software-Architekturen;S;R
+Starke, Gernot & Simons, Michael & Zörner, Stefan & Müller, Ralf D.;arc42 by Example;S;R
 Steffny, Herbert;Das große Laufbuch;S;R
 Steinbeck, John;Früchte des Zorns;R;R
 Stephenson, Neal;Snowcrash;R;R
@@ -313,19 +317,19 @@ Viegener, Susanne;Das Aachener Märchenbuch - Sagen, Legendne und Märchen aus A
 Vigenschow, Uwe & Schneider, Björn & Meyrose, Ines;Soft Skills für IT-Führungskräfte und Projektleiter;S;R
 Vigenschow, Uwe & Schneider, Björn & Meyrose, Ines;Soft Skills für Softwareentwickler;S;R
 Vogt, Christian;Ace in Space: Trident;R;R
+Vogt, Judith;Anarchie Deco;R;R
 Vogt, Judith & Vogt, Christian;Ace In Space;R;R
 Vogt, Judith & Vogt, Christian;Die 13 Gezeichneten 1;R;R
 Vogt, Judith & Vogt, Christian;Die 13 Gezeichneten 2 - Die verkehrte Stadt;R;R
 Vogt, Judith & Vogt, Christian;Die 13 Gezeichneten 3 - Der krumme Mann der Tiefe;R;R
 Vogt, Judith & Vogt, Christian;Schildmaid: Das Lied der Skaldin;R;R
-Vogt, Judith;Anarchie Deco;R;R
 Von Schirach, Ferdinand;Der Fall Collini;R;R
 Von Schirach, Ferdinand;Kaffee und Zigaretten;R;R
 Von Schirach, Ferdinand;Schuld;R;R
 Vos, Johan & Gao, Weiqi & Chin, Stephen & Iverson, Dean & Weaver, James;Pro JavaFX 8;S;R
 Wagenknecht, Sahra;Die Selbstgerechten - Mein Gegenprogramm für Gemeinsinn und Zusammenhalt;S;R
 Walker, Matthew;Das große Buch vom Schlaf;S;R
-Walls,Craig;Spring In Action (Fourth Edition);S;R
+Walls, Craig;Spring In Action (Fourth Edition);S;R
 Welzer, Harald;Täter - Wie aus ganz normalen Menschen Massenmörder werden;S;U
 Wilber, Ken;Integrale Meditation;S;R
 Wolf, Winfried;Eisenbahn und Autowhan - Personen und Gütertranspost auf Schiene und Straße;S;U
@@ -336,4 +340,3 @@ Zeh, Juli;Nullzeit;R;R
 Zeh, Juli;Über Menschen;R;R
 Zeigermann, Oliver & Hartmann, Nils;React - Die praktische Einführung in React, React Router und Redux;S;U
 Zweig, Stefan;Angst;R;R
-Rothfuss, Patrick;Die Furcht des Weisen (1);R;R
