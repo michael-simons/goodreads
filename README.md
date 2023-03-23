@@ -1,25 +1,5 @@
 # Goodreads
 
-`all.csv` contains a more or less unsorted lists of my books. Not necessary complete.
-Here's a browseable, interactive list of all books: [Neo4j Aura meets Quarkus](https://neo4j-aura-quarkus-graphql.herokuapp.com).
-
-
-## Use SQLite to query the database
-
-```
-sqlite3 :memory: \
- '.mode csv' \
- '.separator ;' \
- '.import "|curl -s https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv" books' \
- "SELECT title FROM books WHERE author like '%King%' ORDER by title"
-```
-
-## Resort the list of all books
-
-```
-all=`cat all.csv` && (echo $all | head -n 1 && echo $all | tail -n +2 | sort -f) > all.csv
-```
-
 ## Books
 
 * [97 Things Every Programmer Should Know (EN)](http://www.oreilly.com/pub/pr/2499)
@@ -72,15 +52,76 @@ Either the way we work together or address some common misconceptions, for examp
 
 * [Edsger W. Dijkstra – The Humble Programmer (EN)](https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html)
 
+## My library
 
-## Quotes
+`all.csv` contains an incomplete list of books in my library. The CSV file has 4 columns separated by `;`. 
 
-### Josh Bloch on designing for inheritance / extension
+| Name   | Description                                                   |
+|--------|---------------------------------------------------------------|
+| Author | One or more authors, `last name, first name` separated by `&` |
+| Title  | Title of the book                                             |
+| Type   | R, S, U (Roman (Fiction), Sachbuch (Non-Fiction), Comic)      |
+| State  | R, U (Read, Unread)                                           |
 
-From "Effective Java, 2nd Edition"
+### Interacting with the CSV file
 
-> The class must document its self-use of overridable methods. By convention, a method that invokes overridable methods contains a description of these invocations at the end of its documentation comment. The description begins with the phrase "This implementation."
-> 
-> The best solution to this problem is to prohibit subclassing in classes that are not designed and documented to be safely subclassed.
-> 
-> If a concrete class does not implement a standard interface, then you may inconvenience some programmers by prohibiting inheritance. If you feel that you must allow inheritance from such a class, one reasonable approach is to ensure that the class never invokes any of its overridable methods and to document this fact. In other words, eliminate the class's self-use of overridable methods entirely. In doing so, you'll create a class that is reasonably safe to subclass. Overriding a method will never affect the behavior of any other method.
+#### Using SQLite to query the database
+
+```
+sqlite3 :memory: \
+ '.mode csv' \
+ '.separator ;' \
+ '.import "|curl -s https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv" books' \
+ "SELECT title FROM books WHERE author like '%King%' ORDER by title"
+```
+
+#### Using DuckDB
+
+[DuckDB](https://duckdb.org) is an incredible versatile, in-process SQL OLAP database management system and while most likely total overkill for the small dataset, it's fun. Install and start DuckDB:
+
+```sql
+-- Required to directly import the csv file from Github
+INSTALL httpfs;
+-- Just query the dataset
+select distinct author from read_csv('https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv', header=true, auto_detect=true);
+-- Create a table named books
+create table books as select * from read_csv('https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv', header=true, auto_detect=true);
+-- Query and manipulate as needed
+-- Save the result (overwriting all.csv and sorting it on the way)
+copy (select * from books order by author collate de asc, title collate de asc) to 'all.csv' with (header true, delimiter ';');
+````
+
+#### Using Neo4j
+
+I used to run a browseable, interactive list of all books on Heroku using a free [Neo4j AuraDB instance](https://neo4j.com/cloud/platform/aura-graph-database/), but Heroku stopped offering a free service a while ago. The repository containing the application code (based on Quarkus) is still available:
+[neo4j-aura-quarkus-graphql project](https://github.com/michael-simons/neo4j-aura-quarkus-graphql). Follow the instruction in the README.
+
+The essential query to import the CSV into Neo4j looks like this
+
+```cypher
+LOAD CSV FROM 'https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv' AS row FIELDTERMINATOR ';' MERGE (b:Book {
+  title: trim(row[1])
+})
+SET b.type = row[2], b.state = row[3]
+WITH b, row
+UNWIND split(row[0], '&') AS author
+WITH b, split(author, ',') AS author
+WITH b, ((trim(coalesce(author[1], '')) + ' ') + trim(author[0])) AS author
+MERGE (a:Person {
+  name: trim(author)
+})
+MERGE (a)-[r:WROTE]->(b)
+WITH b, a
+WITH b, collect(a) AS authors
+RETURN id(b) AS id, b.title, b.state, authors
+```
+
+#### Using xsv
+
+[xsv](https://github.com/BurntSushi/xsv) is a powerful tool for manipulating CSV. Here's an example how to get a list of unique authors
+
+```bash
+curl -s https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv | \
+  xsv select -d ";" Author |\
+  uniq
+```
