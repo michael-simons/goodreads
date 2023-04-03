@@ -125,3 +125,13 @@ curl -s https://raw.githubusercontent.com/michael-simons/goodreads/master/all.cs
   xsv select -d ";" Author |\
   uniq
 ```
+
+#### Using the webui
+
+If you have Java 17 installed, started the web ui with
+
+```bash
+mvn -f admin/pom.xml quarkus:dev
+```
+
+It will automatically grab the recent books from the repo and you can use the ui to add new books. Stuff will be persisted to `all.csv` when you kill the application.
