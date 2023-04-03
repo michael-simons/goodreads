@@ -75,7 +75,7 @@ public class admin {
 		</html>
 		""";
 
-	private final Jdbi jdbi;
+	private final Jdbi db;
 
 	public static void main(String[] args) {
 
@@ -85,12 +85,12 @@ public class admin {
 	@Inject
 	public admin(DataSource dataSource) {
 
-		this.jdbi = Jdbi.create(dataSource);
+		db = Jdbi.create(dataSource);
 	}
 
 	public void onStart(@Observes StartupEvent ev) {
 
-		this.jdbi.useHandle(handle -> handle.execute("""
+		db.useHandle(handle -> handle.execute("""
 			CREATE TABLE books 
 			AS SELECT * 
 			FROM read_csv('all.csv', header=true, auto_detect=true)
@@ -102,7 +102,7 @@ public class admin {
 	@Produces(MediaType.TEXT_HTML)
 	public String index() {
 
-		var authors = this.jdbi.withHandle(handle -> handle.createQuery("""
+		var authors = db.withHandle(handle -> handle.createQuery("""
 				WITH src AS (SELECT unnest(split(author,'&')) author FROM books)
 				SELECT DISTINCT trim(author) AS author 
 				FROM src
@@ -122,7 +122,7 @@ public class admin {
 	@Consumes("application/x-www-form-urlencoded")
 	public Response save(@Context UriInfo uriInfo, MultivaluedMap<String, String> formdata) {
 
-		this.jdbi.useHandle(handle -> handle.createUpdate("""
+		db.useHandle(handle -> handle.createUpdate("""
 				INSERT INTO books (author, title, type, state) 
 				VALUES (:author, :title, :type, :state)
 				""")
@@ -137,7 +137,7 @@ public class admin {
 
 	public void onStop(@Observes ShutdownEvent ev) {
 
-		this.jdbi.useHandle(handle -> handle.execute("""
+		db.useHandle(handle -> handle.execute("""
 			COPY (SELECT * FROM books ORDER BY author collate de asc, title collate de ASC) 
 			TO 'all.csv' 
 			WITH (header true, delimiter ';');
