@@ -42,36 +42,36 @@ import io.quarkus.runtime.StartupEvent;
  * @author Michael J. Simons
  */
 @Path("/")
-public final class admin {
+public class admin {
 
 	private static final String INDEX_HTML = """
 		<!DOCTYPE html>
 		<html lang="en">
-		<head>
-		    <meta charset="UTF-8">
-		    <title>Add new book</title>
-		</head>
-		<body>
-		<h1>Add a new book</h1>
-		<form method="post">
-		    <label for="author">Author</label>&#160;<input type="text" list="authors" id="author" name="author"><br>
-		    <datalist id="authors">
-		        ${authors}
-		    </datalist>
-		    <label for="title">Title</label>&#160;<input type="text" id="title" name="title"><br>
-		    <label for="type">Type</label>&#160;
-		    <select name="type" id="type">
-		        <option value="R">Roman / Prose</option>
-		        <option value="S">Sachbuch / Non-fiction</option>
-		    </select><br>
-		    <label for="state">State</label>&#160;
-		    <select name="state" id="state">
-		        <option value="R">Read</option>
-		        <option value="U">Unread</option>
-		    </select><br>
-		    <input type="submit">
-		</form>
-		</body>
+		    <head>
+		        <meta charset="UTF-8">
+		        <title>Add new book</title>
+		    </head>
+		    <body>
+		        <h1>Add a new book</h1>
+		        <form method="post">
+		            <label for="author">Author</label>&#160;<input type="text" list="authors" id="author" name="author"><br>
+		            <datalist id="authors">
+		                ${authors}
+		            </datalist>
+		            <label for="title">Title</label>&#160;<input type="text" id="title" name="title"><br>
+		            <label for="type">Type</label>&#160;
+		            <select name="type" id="type">
+		                <option value="R">Roman / Prose</option>
+		                <option value="S">Sachbuch / Non-fiction</option>
+		            </select><br>
+		            <label for="state">State</label>&#160;
+		            <select name="state" id="state">
+		                <option value="R">Read</option>
+		                <option value="U">Unread</option>
+		            </select><br>
+		            <input type="submit">
+		        </form>
+		    </body>
 		</html>
 		""";
 
@@ -88,7 +88,7 @@ public final class admin {
 		this.jdbi = Jdbi.create(dataSource);
 	}
 
-	void onStart(@Observes StartupEvent ev) {
+	public void onStart(@Observes StartupEvent ev) {
 
 		this.jdbi.useHandle(handle -> handle.execute("""
 			CREATE TABLE books 
@@ -104,12 +104,16 @@ public final class admin {
 
 		var authors = this.jdbi.withHandle(handle -> handle.createQuery("""
 				WITH src AS (SELECT unnest(split(author,'&')) author FROM books)
-				SELECT DISTINCT trim(author) FROM src
+				SELECT DISTINCT trim(author) AS author 
+				FROM src
+				ORDER BY author ASC
 				""")
-			.map(r -> r.getColumn(1, String.class))
+			.map(r -> r.getColumn("author", String.class))
 			.map(StringEscapeUtils::escapeHtml4)
-			.map("<option value=\"%s\">"::formatted)
-			.stream().collect(Collectors.joining())
+			.map("<option value=\"%s\">%n"::formatted)
+			.stream()
+			.collect(Collectors.joining("                "))
+			.trim()
 		);
 		return INDEX_HTML.replace("${authors}", authors);
 	}
@@ -131,7 +135,7 @@ public final class admin {
 		return Response.seeOther(uriInfo.resolve(URI.create("/"))).build();
 	}
 
-	void onStop(@Observes ShutdownEvent ev) {
+	public void onStop(@Observes ShutdownEvent ev) {
 
 		this.jdbi.useHandle(handle -> handle.execute("""
 			COPY (SELECT * FROM books ORDER BY author collate de asc, title collate de ASC) 
