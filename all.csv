@@ -11,6 +11,7 @@ Aaronovitch, Ben;Die Flüsse von London 8 - Ein weißer Schwan in Tabernacle Str
 Ambler, Scott W. & Sadalage, Pramod;Refactoring Databases - Evolutionary Database Design;S;U
 Anderson, Gail & Anderson, Paul;JavaFX - Rich Client Programming On The NetBeans Platform;S;R
 Ariely, Dan;Denken hilft zwar, nützt aber nichts - Warum wir immer wieder unvernünftige Entscheidungen treffen;S;R
+Atwood, Margaret;Das Jahr der Flut;R;R
 Baton, Jérôme & Van Bruggen, Rik;Learning Neo4j 3.x (2nd Edition);S;R
 Beck, Kent;Implementation Patterns;S;R
 Bellotti, Marianne;Kill It With Fire;S;R
@@ -32,6 +33,7 @@ Brooks, Frederick P.;The Mythical Man-Month;S;R
 Brooks, Greg & Lupton, Simon;Freddie Mercury - Ein Leben in eigenen Worten;S;R
 Burns, Ed & Schalk, Chris;JavaServer Faces 2.0 - The Complete Reference;S;R
 Carrol, Lewis & Rieder, Floor;Alice im Wunderland & Alice hinter den Spiegel;R;R
+Carstens, Uwe & Stutte, Harald;Der Kleine von Dakota Uwe - Meine Kindheit auf St. Pauli;S;R
 Chacon, Scott & Straub, Ben;Pro Git;S;R
 Chappel, Emily;Where There's A Will - Hope, Grief and Endurance in A Cycle Race Across a Continent;S;R
 Chin, Stephen & McKay, Melissa & Ruiz, Ixchel & Sadogursky, Baruch;DevOps Tools For Java Developers - Best Practices From Source Code To Production Containers;S;R
@@ -222,6 +224,7 @@ Martin, George R.R.;A Song Of Ice And Fire 2 - A Clash Of Kings;R;R
 Martin, George R.R.;A Song Of Ice And Fire 3 - A Storm Of Swords;R;R
 Martin, George R.R.;A Song Of Ice And Fire 4 - A Feast For Crows;R;R
 Martin, George R.R.;A Song Of Ice And Fire 5 - A Dance With Dragons;R;R
+Martin, George R.R.;Das Lied des Eisdrachen;R;U
 Mason,Paul;Klare, Lichte Zukunft - Eine Radikale Verteidigung des Humanismus;S;R
 Mayonga, David & Frenzel, Nils;Ein Neger darf nicht neben mir sitzen - Eine deutsche Geschichte;S;R
 McLuhan, Marshall;The Gutenberg Galaxy;S;U
@@ -259,7 +262,7 @@ Passig, Kathrin & Jander, Johannes;Weniger schlecht programmieren;S;R
 Passmann, Sophie;Alte weisse Männer - Ein Schlichtungsversuch;S;R
 Pichler, Roman;Scrum - Agiles Projektmanagement erfolgreich umsetzen;S;R
 Powell, James Lawrence;2084;R;R
-Puzo,Mario;Der Pate;R;U
+Puzo, Mario;Der Pate;R;U
 Redmon, Eric & Wilson, Jim R.;Sieben Wochen, sieben Datenbanken;S;R
 Riemek, Jennifer & Kuhn, Michael;Wir waren noch so jung;R;R
 Rifkin, Jeremy;Der Europäische Traum - Die Vision einer leisen Supermacht;S;U
