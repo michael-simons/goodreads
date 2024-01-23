@@ -14,7 +14,7 @@
 * [Martin Kleppmann - Designing Data-Intensive Applications](https://dataintensive.net/)
 * [Marianne Bellotti - Kill It With Fire](https://nostarch.com/kill-it-fire)
 * [DevOps Tools for Java Developers (Various authors)](https://www.oreilly.com/library/view/devops-tools-for/9781492084013/)
-* [Dan McQuillan - Resisting AI, An anti-fascist approach to artificial intelligence](https://bristoluniversitypress.co.uk/resisting-ai) (Aone of the most important books in the field of AI in 2023 and later)
+* [Dan McQuillan - Resisting AI, An anti-fascist approach to artificial intelligence](https://bristoluniversitypress.co.uk/resisting-ai) (One of the most important books in the field of AI in 2023 and later)
 
 ## Problemsolver
 
