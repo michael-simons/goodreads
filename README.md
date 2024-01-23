@@ -14,6 +14,7 @@
 * [Martin Kleppmann - Designing Data-Intensive Applications](https://dataintensive.net/)
 * [Marianne Bellotti - Kill It With Fire](https://nostarch.com/kill-it-fire)
 * [DevOps Tools for Java Developers (Various authors)](https://www.oreilly.com/library/view/devops-tools-for/9781492084013/)
+* [Dan McQuillan - Resisting AI, An anti-fascist approach to artificial intelligence](https://bristoluniversitypress.co.uk/resisting-ai) (Aone of the most important books in the field of AI in 2023 and later)
 
 ## Problemsolver
 
@@ -60,7 +61,7 @@ Either the way we work together or address some common misconceptions, for examp
 |--------|---------------------------------------------------------------|
 | Author | One or more authors, `last name, first name` separated by `&` |
 | Title  | Title of the book                                             |
-| Type   | R, S, U (Roman (Fiction), Sachbuch (Non-Fiction), Comic)      |
+| Type   | R, S, C (Roman (Fiction), Sachbuch (Non-Fiction), Comic)      |
 | State  | R, U (Read, Unread)                                           |
 
 ### Interacting with the CSV file
@@ -70,7 +71,7 @@ Either the way we work together or address some common misconceptions, for examp
 ```
 sqlite3 :memory: \
  '.mode csv' \
- '.separator ;' \
+ '.separator ,' \
  '.import "|curl -s https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv" books' \
  "SELECT title FROM books WHERE author like '%King%' ORDER by title"
 ```
@@ -83,12 +84,12 @@ sqlite3 :memory: \
 -- Required to directly import the csv file from Github
 INSTALL httpfs;
 -- Just query the dataset
-select distinct author from read_csv('https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv', header=true, auto_detect=true);
+SELECT DISTINCT author FROM read_csv('https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv', header=true, auto_detect=true);
 -- Create a table named books
-create table books as select * from read_csv('https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv', header=true, auto_detect=true);
+CREATE TABLE books AS SELECT * FROM read_csv('https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv', header=true, auto_detect=true);
 -- Query and manipulate as needed
 -- Save the result (overwriting all.csv and sorting it on the way)
-copy (select * from books order by author collate de asc, title collate de asc) to 'all.csv' with (header true, delimiter ';');
+COPY (SELECT * FROM books ORDER BY author COLLATE de ASC, title COLLATE de ASC) TO 'all.csv' WITH (header true);
 ````
 
 #### Using Neo4j
@@ -99,12 +100,13 @@ I used to run a browseable, interactive list of all books on Heroku using a free
 The essential query to import the CSV into Neo4j looks like this
 
 ```cypher
-LOAD CSV FROM 'https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv' AS row FIELDTERMINATOR ';' MERGE (b:Book {
-  title: trim(row[1])
+LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv' AS row FIELDTERMINATOR ',' 
+MERGE (b:Book {
+  title: trim(row.Title)
 })
-SET b.type = row[2], b.state = row[3]
+SET b.type = row.Type, b.state = row.State
 WITH b, row
-UNWIND split(row[0], '&') AS author
+UNWIND split(row.Author, '&') AS author
 WITH b, split(author, ',') AS author
 WITH b, ((trim(coalesce(author[1], '')) + ' ') + trim(author[0])) AS author
 MERGE (a:Person {
@@ -122,7 +124,7 @@ RETURN id(b) AS id, b.title, b.state, authors
 
 ```bash
 curl -s https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv | \
-  xsv select -d ";" Author |\
+  xsv select -d "," Author |\
   uniq
 ```
 

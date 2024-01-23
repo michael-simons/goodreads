@@ -2,11 +2,11 @@
 //JAVA 17
 //JAVAC_OPTIONS -parameters
 //JAVA_OPTIONS -Djava.util.logging.manager=org.jboss.logmanager.LogManager
-//DEPS io.quarkus.platform:quarkus-bom:2.16.5.Final@pom
-//DEPS org.jdbi:jdbi3-bom:3.37.1@pom
+//DEPS io.quarkus.platform:quarkus-bom:3.6.6@pom
+//DEPS org.jdbi:jdbi3-bom:3.43.0@pom
 //DEPS io.quarkus:quarkus-resteasy-qute
 //DEPS io.quarkus:quarkus-agroal
-//DEPS org.duckdb:duckdb_jdbc:0.7.1
+//DEPS org.duckdb:duckdb_jdbc:0.9.2
 //DEPS org.jdbi:jdbi3-core
 //DEPS org.apache.commons:commons-text:1.10.0
 //Q:CONFIG quarkus.datasource.db-kind=other
@@ -15,19 +15,20 @@
 import java.net.URI;
 import java.util.stream.Collectors;
 
-import javax.enterprise.event.Observes;
-import javax.inject.Inject;
 import javax.sql.DataSource;
-import javax.ws.rs.Consumes;
-import javax.ws.rs.GET;
-import javax.ws.rs.POST;
-import javax.ws.rs.Path;
-import javax.ws.rs.Produces;
-import javax.ws.rs.core.Context;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.MultivaluedMap;
-import javax.ws.rs.core.Response;
-import javax.ws.rs.core.UriInfo;
+
+import jakarta.enterprise.event.Observes;
+import jakarta.inject.Inject;
+import jakarta.ws.rs.Consumes;
+import jakarta.ws.rs.GET;
+import jakarta.ws.rs.POST;
+import jakarta.ws.rs.Path;
+import jakarta.ws.rs.Produces;
+import jakarta.ws.rs.core.Context;
+import jakarta.ws.rs.core.MediaType;
+import jakarta.ws.rs.core.MultivaluedMap;
+import jakarta.ws.rs.core.Response;
+import jakarta.ws.rs.core.UriInfo;
 
 import org.apache.commons.text.StringEscapeUtils;
 import org.jdbi.v3.core.Jdbi;
@@ -167,9 +168,9 @@ public class admin {
 	public void onStop(@Observes ShutdownEvent ev) {
 
 		db.useHandle(handle -> handle.execute("""
-			COPY (SELECT * FROM books ORDER BY author collate de asc, title collate de ASC) 
+			COPY (SELECT * FROM books ORDER BY author COLLATE de ASC, title COLLATE de ASC) 
 			TO 'all.csv' 
-			WITH (header true, delimiter ';');
+			WITH (header true);
 			"""
 		));
 	}
