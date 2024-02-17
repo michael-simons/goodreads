@@ -32,6 +32,10 @@ Either the way we work together or address some common misconceptions, for examp
 * [Matthew Walker - Why We Sleep](https://www.gatesnotes.com/Books/Why-We-Sleep)
 * [Robin DiAngelo - White Fragility](https://www.tolerance.org/magazine/summer-2019/whats-my-complicity-talking-white-fragility-with-robin-diangelo) (A recommended read for all white developers and a good starter to understand why we need to work actively against racism and not manifest structural racism in our software based solutions)
 
+## Work in general
+
+* [Gavin Mueller - Breaking Things At Work: The Luddites Were Right About Why You Hate Your Job](https://archive.org/details/breaking-things-at-work-the-luddites-were-right-about-why-you-hate-your-job-by-gavin-mueller/mode/2up) (I don't hate my job, quite the contrary, but this book is both a good history whirlwind and a reassurance that I am not the only one who struggles to understand ongoing automation, enshittification and in general, making billionaires richer by making us all poorer and less autonomous)
+
 ## Essays and other articles
 
 ### Best practices
