@@ -12,9 +12,9 @@ Author,Title,Type,State,Last read on
 "Ambler, Scott W. & Sadalage, Pramod",Refactoring Databases - Evolutionary Database Design,S,U,
 "Anderson, Gail & Anderson, Paul",JavaFX - Rich Client Programming On The NetBeans Platform,S,R,
 "Ariely, Dan","Denken hilft zwar, nützt aber nichts - Warum wir immer wieder unvernünftige Entscheidungen treffen",S,R,
-"Atwood, Margaret",Das Jahr der Flut,R,R,
-"Atwood, Margaret",Der Report der Magd,R,R,
-"Atwood, Margaret",Die Zeuginnen,R,R,
+"Atwood, Margaret",Das Jahr der Flut,R,R,2023-04-16
+"Atwood, Margaret",Der Report der Magd,R,R,2023-05-01
+"Atwood, Margaret",Die Zeuginnen,R,R,2023-05-15
 "Baton, Jérôme & Van Bruggen, Rik",Learning Neo4j 3.x (2nd Edition),S,R,
 "Beck, Kent",Implementation Patterns,S,R,
 "Bellotti, Marianne",Kill It With Fire,S,R,
@@ -37,16 +37,16 @@ Benni-Mama,Große Ärsche auf kleinen Stühlen - Eine Kindergartenmutter packt a
 "Brooks, Greg & Lupton, Simon",Freddie Mercury - Ein Leben in eigenen Worten,S,R,
 "Burns, Ed & Schalk, Chris",JavaServer Faces 2.0 - The Complete Reference,S,R,
 "Carrol, Lewis & Rieder, Floor",Alice im Wunderland & Alice hinter den Spiegel,R,R,
-"Carstens, Uwe & Stutte, Harald",Der Kleine von Dakota Uwe - Meine Kindheit auf St. Pauli,S,R,
+"Carstens, Uwe & Stutte, Harald",Der Kleine von Dakota Uwe - Meine Kindheit auf St. Pauli,S,R,2023-04-06
 "Chacon, Scott & Straub, Ben",Pro Git,S,R,
 "Chappel, Emily","Where There's A Will - Hope, Grief and Endurance in A Cycle Race Across a Continent",S,R,
 "Chin, Stephen & McKay, Melissa & Ruiz, Ixchel & Sadogursky, Baruch",DevOps Tools For Java Developers - Best Practices From Source Code To Production Containers,S,R,
 "Chizmar, Richard",Gwendys Zauberfeder,R,R,
 "Chua, Amy",Die Mutter des Erfolgs - Wie ich meinen Kindern das Siegen beibrachte,S,R,
 "Cleave, Paul",Das Haus des Todes,R,R,
-"Cwiertnia, Laura",Auf der Straße heissen wir anders,R,R,
+"Cwiertnia, Laura",Auf der Straße heissen wir anders,R,R,2023-04-04
 "DeMarco, Tom & Hruschka, Peter & Lister, Tim & McMenamin, Steve & Robertson, James & Robertson, Suzanne",Adrenalin Junkies & Formular Zombies - Typisches Verhalten in Projekten,S,R,
-"Deonn, Tracy",Legendborn: Das geheime Erbe,R,R,
+"Deonn, Tracy",Legendborn: Das geheime Erbe,R,R,2023-11-19
 "Deonn, Tracy",Legendborn: Der geheime Bund,R,R,
 "Diangelo, Robin",White Fragility - Why It's So Hard For White People To Talk About Racism,S,R,
 "Dick, Philip K.",Der dunkle Schirm,R,R,
@@ -83,17 +83,17 @@ Flake,Der Tastenficker - An was ich mich so erinnern kann,S,R,
 "Froböse, Ingo","Muskeln: Die Gesundmacher - So bleiben wir fit, schlank und mental in Balance",S,R,2024-03-02
 "Fromm, Erich",Haben oder Sein - Die seelischen Grundlagen einer neuen Gesellschaft,S,R,
 "Fulton, Hal",The Ruby Way (2nd Edition),S,R,
-"Gaiman, Neil","The Sandman, Vol. 1: Preludes & Nocturnes",R,R,
-"Gaiman, Neil","The Sandman, Vol. 10: The Wake",R,R,
-"Gaiman, Neil","The Sandman, Vol. 11: Endless Nights",R,R,
-"Gaiman, Neil","The Sandman, Vol. 2: The Doll's House",R,R,
-"Gaiman, Neil","The Sandman, Vol. 3: Dream Country",R,R,
-"Gaiman, Neil","The Sandman, Vol. 4: Season Of The Mist",R,R,
-"Gaiman, Neil","The Sandman, Vol. 5: A Game Of You",R,R,
-"Gaiman, Neil","The Sandman, Vol. 6: Fables and Reflections",R,R,
-"Gaiman, Neil","The Sandman, Vol. 7: Brief Lives",R,R,
-"Gaiman, Neil","The Sandman, Vol. 8: Worlds' End",R,R,
-"Gaiman, Neil","The Sandman, Vol. 9: The Kindly Ones",R,R,
+"Gaiman, Neil","The Sandman, Vol. 1: Preludes & Nocturnes",R,R,2022-12-27
+"Gaiman, Neil","The Sandman, Vol. 10: The Wake",R,R,2023-01-25
+"Gaiman, Neil","The Sandman, Vol. 11: Endless Nights",R,R,2023-01-26
+"Gaiman, Neil","The Sandman, Vol. 2: The Doll's House",R,R,2023-01-02
+"Gaiman, Neil","The Sandman, Vol. 3: Dream Country",R,R,2023-01-03
+"Gaiman, Neil","The Sandman, Vol. 4: Season Of The Mist",R,R,2023-01-05
+"Gaiman, Neil","The Sandman, Vol. 5: A Game Of You",R,R,2023-01-06
+"Gaiman, Neil","The Sandman, Vol. 6: Fables and Reflections",R,R,2023-01-12
+"Gaiman, Neil","The Sandman, Vol. 7: Brief Lives",R,R,2023-01-14
+"Gaiman, Neil","The Sandman, Vol. 8: Worlds' End",R,R,2023-01-18
+"Gaiman, Neil","The Sandman, Vol. 9: The Kindly Ones",R,R,2023-01-23
 "Gamma, Erich & Helm, Richard & Johnson, Ralph & Vlissides, John",Entwurfsmuster - Elemente wiederverwendbarer objektorientierter Software,S,R,
 "Geschke, Linus",Und am Morgen waren sie tot,R,U,
 "Gharbi, Mahbouba & Koschel, Arne & Rausch, Andreas & Starke, Gernot",Basiswissen für Software-Architekten,S,U,
@@ -109,7 +109,7 @@ Gnu,Du schaffst das (nicht),S,R,
 "Hadfield, Chris",Anleitung zur Schwerelosigkeit,S,R,
 "Haig, Matt",Reasons To Stay Alive,S,R,
 "Haldeman, Joe",Der ewige Krieg,R,R,
-"Hari, Johann",Abgelenkt: Wie uns die Konzentration abhanden kam und wie wir sie zurückgewinnen,S,R,
+"Hari, Johann",Abgelenkt: Wie uns die Konzentration abhanden kam und wie wir sie zurückgewinnen,S,R,2023-09-05
 "Harrer, Simon & Lenhard, Jörg & Dietz, Linus",Java By Comparison - Become A Java Craftsman in 70 Examples,S,R,
 "Harris, Robert",Vaterland,R,R,
 "Heinle, Nick & Peña, Bill",Webdesign mit JavaScript,S,U,
@@ -127,8 +127,9 @@ Gnu,Du schaffst das (nicht),S,R,
 "Herbert, Frank",Der Wüstenplanet 2 - Der Herr des Wüstenplaneten,R,R,2024-04-05
 "Herbert, Frank",Der Wüstenplanet 3 - Die Kinder des Wüstenplaneten,R,R,2024-04-18
 "Herbert, Frank",Der Wüstenplanet 4 - Der Gottkaiser des Wüstenplaneten,R,R,2024-04-27
-"Herbert, Frank",Der Wüstenplanet 5 - Die Ketzer des Wüstenplaneten,R,R,
+"Herbert, Frank",Der Wüstenplanet 5 - Die Ketzer des Wüstenplaneten,R,R,2024-06-02
 "Herbert, Frank",Der Wüstenplanet 6 - Die Ordensburg des Wüstenplaneten,R,R,
+"Herbert, Frank",Hellstrøms Brut,R,R,2024-05-19
 "Herold, Helmut",C-Kompaktreferenz,S,R,
 "Herrmann, Ulrike",Das Ende des Kapitalismus,S,R,
 "Hespers, Nora","Mein Opa, sein Widerstand gegen die Nazis und ich",R,R,
@@ -137,7 +138,7 @@ Gnu,Du schaffst das (nicht),S,R,
 "Hoey, J. Kelly",Build your dream network,S,R,
 "Houellebecq, Michel",Vernichten,R,R,
 "Hruschka, Peter",Business Analysis und Requirements Engineering,S,R,
-"Hruschka, Peter & Starke, Gernot",Knigge für Softwarearchitekten Reloaded,S,R,
+"Hruschka, Peter & Starke, Gernot",Knigge für Softwarearchitekten Reloaded,S,R,2015-12-13
 "Hutton, Jim & Wapshott, Tim",Freddie Mercury und ich,S,R,
 "Huxley, Aldous",Schöne neue Welt,R,R,
 "Ischinger, Wolfgang",Welt in Gefahr - Deutschland und Europa in unsicheren Zeiten,S,R,
@@ -154,18 +155,18 @@ Janosch,Janosch erzählt Grimm's Märchen,M,U,
 "King, Stephen",Billy Summers,R,R,
 "King, Stephen",Blutige Nachrichten,R,R,
 "King, Stephen",Brennen muss Salem,R,R,
-"King, Stephen",Cujo,R,R,
+"King, Stephen",Cujo,R,R,2024-06-16
 "King, Stephen",Das Institut,R,R,
 "King, Stephen",Das Spiel,R,R,
 "King, Stephen",Der Anschlag,R,R,
 "King, Stephen",Der Buick,R,R,
-"King, Stephen",Der Dunkle Turm 1 - Schwarz,R,R,
-"King, Stephen",Der Dunkle Turm 2 - Drei,R,R,
-"King, Stephen",Der Dunkle Turm 3 - tot.,R,R,
-"King, Stephen",Der Dunkle Turm 4 - Glas,R,R,
-"King, Stephen",Der Dunkle Turm 5 - Wolfsmond,R,R,
-"King, Stephen",Der Dunkle Turm 6 - Susannah,R,R,
-"King, Stephen",Der Dunkle Turm 7 - Der Turm,R,R,
+"King, Stephen",Der Dunkle Turm 1 - Schwarz,R,R,2020-09-25
+"King, Stephen",Der Dunkle Turm 2 - Drei,R,R,2020-10-14
+"King, Stephen",Der Dunkle Turm 3 - tot.,R,R,2020-10-21
+"King, Stephen",Der Dunkle Turm 4 - Glas,R,R,2020-11-03
+"King, Stephen",Der Dunkle Turm 5 - Wolfsmond,R,R,2020-12-05
+"King, Stephen",Der Dunkle Turm 6 - Susannah,R,R,2020-12-18
+"King, Stephen",Der Dunkle Turm 7 - Der Turm,R,R,2020-12-31
 "King, Stephen",Der Outsider,R,R,
 "King, Stephen",Die Arena,R,R,
 "King, Stephen",Die Augen des Drachen,R,R,
@@ -176,7 +177,8 @@ Janosch,Janosch erzählt Grimm's Märchen,M,U,
 "King, Stephen",Feuerkind,R,R,
 "King, Stephen",Friedhof der Kuscheltiere,R,R,
 "King, Stephen","Frühling, Sommer Herbst und Tod",R,R,
-"King, Stephen",Holly,R,R,
+"King, Stephen",Holly,R,R,2023-10-21
+"King, Stephen",Ihr wollt es dunkler,R,R,2024-06-11
 "King, Stephen",Im Morgengrauen,R,R,
 "King, Stephen",Joyland,R,R,
 "King, Stephen",Menschenjagd,R,R,
@@ -198,7 +200,7 @@ Janosch,Janosch erzählt Grimm's Märchen,M,U,
 "King, Stephen","The Stand - Das letzte Gefecht, Band 2",R,R,
 "King, Stephen",Todesmarsch,R,R,
 "King, Stephen",Wahn,R,R,
-"King, Stephen",Wind,R,R,
+"King, Stephen",Wind,R,R,2020-11-19
 "King, Stephen & Chizmar, Richard",Gwendys letzte Aufgabe,R,R,
 "King, Stephen & Chizmar, Richard",Gwendys Wunschkasten,R,R,
 "King, Stephen & King, Owen",Sleeping Beauties,R,R,
@@ -214,6 +216,7 @@ Janosch,Janosch erzählt Grimm's Märchen,M,U,
 "Kowalczuk, Ilko-Sascha",Die Übernahme: Wie Ostdeutschland Teil der Bundesrepublik wurde,S,R,2023-07-29
 "Kozlowski, Pawel & Darwin, Peter Bacon",Mastering Web Applications Development with AngularJS,S,U,
 "Kübeck, Sebastian",Web-Sicherheit - Wie Sie Ihre Webanwendungen sicher vor Angriffen schützen,S,R,
+"Kushner, David",Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture,S,R,2023-12-03
 "Kutscher, Volker",Der nasse Fisch,R,R,
 "Kutscher, Volker",Der stumme Tod,R,U,
 "Lemmy & Garza, Janiss",White Line Fever,S,R,
@@ -244,14 +247,14 @@ Janosch,Janosch erzählt Grimm's Märchen,M,U,
 "Merridale, Catherine",Lenins Zug - Eine Reise in die Revolution,R,U,
 "Meyberg, Kurt & Vachenauer, Peter",Höhere Mathematik 1,S,R,
 "Mihalcea, Vlad",High-Performance Java Persistence,S,U,
-"Mira, Aiki",Neongrau - Game Over im Neurosubstrat,R,R,
+"Mira, Aiki",Neongrau - Game Over im Neurosubstrat,R,R,2023-03-23
 "Moers, Walter",Adolf,C,R,
 "Moers, Walter",Adolf - Der Bunker,C,R,
 "Moers, Walter",Adolf Teil 2,C,R,
 "Moers, Walter","Der alte Sack, ein kleines Arschloch und andere Höhepunkte des Kapitalismus",C,R,
 "Moers, Walter",Der Schrecksenmeister,R,R,
 "Moers, Walter",Die 13 1/2 Leben des Käpt'n Blaubär,R,R,
-"Moers, Walter",Die Insel der Tausend Leuchttürme,R,R,
+"Moers, Walter",Die Insel der Tausend Leuchttürme,R,R,2023-12-17
 "Moers, Walter",Die Stadt der Träumenden Bücher,R,R,
 "Moers, Walter",Prinzessin Insomnia & der alptraumfarbene Nachtmahr,R,R,2024-02-05
 "Möllers, Christian",Das Grundgesetz - Geschichte und Inhalt,S,R,
@@ -282,18 +285,19 @@ Monchi,Niemals satt: Über den Hunger aufs Leben und 182 Kilo auf der Waage,S,R,
 "Pichler, Roman",Scrum - Agiles Projektmanagement erfolgreich umsetzen,S,R,
 "Powell, James Lawrence",2084,R,R,
 "Pratchett, Terry",Gevatter Tod: Ein Roman von der bizarren Scheibenwelt,R,R,2023-08-18
+"Pratchett, Terry & Gaiman, Neil",Ein gutes Omen,R,R,2023-08-07
 "Puzo, Mario",Der Pate,R,U,
 "Redmon, Eric & Wilson, Jim R.","Sieben Wochen, sieben Datenbanken",S,R,
 "Riemek, Jennifer & Kuhn, Michael",Wir waren noch so jung,R,R,
 "Rifkin, Jeremy",Der Europäische Traum - Die Vision einer leisen Supermacht,S,U,
 "Robinson, Ian & Webber, Jim & Eifrem, Emil",Graph Databases,S,R,
 "Rosling, Hans & Rosling Rönnlund, Anna & Rosling, Ola","Factfulness. Wie wir lernen, die Welt so zu sehen, wie sie wirklich ist",S,R,
-"Rothfuss, Patrick",Der Name des Windes,R,R,
-"Rothfuss, Patrick",Die Furcht des Weisen (1),R,R,
-"Rothfuss, Patrick",Die Furcht des Weisen (2),R,R,
-"Rothfuss, Patrick",Die Musik der Stille,R,R,
+"Rothfuss, Patrick",Der Name des Windes,R,R,2023-02-03
+"Rothfuss, Patrick",Die Furcht des Weisen (1),R,R,2023-02-24
+"Rothfuss, Patrick",Die Furcht des Weisen (2),R,R,2023-03-03
+"Rothfuss, Patrick",Die Musik der Stille,R,R,2023-03-31
 "Ruf, Christoph & Sundermeyer",In der NPD - Reisen in die National befreite Zone,S,U,
-"Rushdie, Salman",Quichotte,R,R,
+"Rushdie, Salman",Quichotte,R,R,2023-11-13
 "Sagan, Peter",Meine Welt,S,R,
 "Salinger,J.D.",Der Fänger im Roggen,R,R,
 "Sammer, Isolde",Die Stille nach dem Schrei,R,R,
@@ -303,14 +307,14 @@ Monchi,Niemals satt: Über den Hunger aufs Leben und 182 Kilo auf der Waage,S,R,
 "Schiffmann, Wolfram & Schmitz, Robert",Technische Informatik I,S,R,
 "Schink,Nena",Unfollow - Wie Instagram unser Leben zerstört,S,R,
 "Schmeh, Klaus","Kryptografie - Verfahren, Protokolle, Infrastrukturen",S,U,
-"Schramm, Georg",Lassen Sie es mich so sagen…,S,R,
+"Schramm, Georg",Lassen Sie es mich so sagen…,S,R,2020-10-14
 "Schreiber,Jasmin",Marianengraben,R,R,
 "Seibel, Peter",Coders At Work - Reflections On The Craft Of Programming,S,R,
 "Sennet, Richard",Zusammen Arbeit,S,R,
 "Shelly,Mary W.",Der letzte Mensch,R,U,
 "Sherwan, Amed & Hoop, Katrine",Kāfir - Allah sei Dank bin ich Atheist,S,R,
 "Simons, Michael",Spring Boot 2 - Moderne Softwareentwicklung mit Spring 5,S,R,
-"Sinan, Marc",Gleissendes Licht,R,R,
+"Sinan, Marc",Gleissendes Licht,R,R,2023-04-25
 "Singer, Ryan",Shape Up: Stop Running in Circles and Ship Work that Matters,S,R,
 "Sky, Rick",Freddie Mercury - Das Leben des legendären Popstars,S,R,
 "Snowden, Edward",Permanent Record - Meine Geschichte,S,R,
@@ -327,19 +331,19 @@ Monchi,Niemals satt: Über den Hunger aufs Leben und 182 Kilo auf der Waage,S,R,
 "Stephenson, Neal",Snowcrash,R,R,
 "Stern, Arno & Stern, André",Mein Vater mein Freund - Das Geheimnis glücklicher Söhne,S,R,
 "Stöcker, Christian","Männer, die die Welt verbrennen - Der entscheidende Kampf um die Zukunft der Menschheit",S,R,2024-05-08
-T. C. Boyle,Blue Skies,R,R,
-T. C. Boyle,Sprich mit mir,R,R,
+T. C. Boyle,Blue Skies,R,R,2023-07-23
+T. C. Boyle,Sprich mit mir,R,R,2023-08-12
 "Taleb, Nassim Nicholas",Der schwarze Schwan - Die Macht höchst unwahrscheinlicher Ereignisse,S,R,
 tante,connected,S,R,
 The Oatmeal,5 Very Good Reasons To Punch A Dolphin In The Mouth,C,R,
-"Thelen, Albert Vigoleis",Die Insel des zweiten Gesichts,R,R,
+"Thelen, Albert Vigoleis",Die Insel des zweiten Gesichts,R,R,2023-10-15
 "Treber, Leonie",Mythos Trümmerfrauen,S,U,
 "Trump, Mary L.",Too Much and Never Enough - How My Family Created The World's Most Dangerous Man,S,R,
 "Turnquist, Greg L.",Hacking with Spring Boot 2.3 - Reactive Edition,S,R,
 "Turnquist, Greg L.",Hacking with Spring Boot 2.4 - Classic Edition,S,U,
 "Twain, Mark",Tom Sawyer,R,U,
 "Üblacker, Stefan",Das Buch Ä - Die von Die Ärzte autorisierte Biographie,S,R,
-"Ufferfilge, Levi Isreal",Nicht ohne meine Kippa!,S,R,
+"Ufferfilge, Levi Isreal",Nicht ohne meine Kippa!,S,R,2023-01-27
 "Uhly, Steven",Die Summe des Ganzen,R,R,
 "Urma, Raoul-Gabriel & Fusco, Mario & Mycroft, Alan",Java 8 in Action,S,R,
 Various,Das kleine Sabotage-Handbuch von 1944,S,R,
