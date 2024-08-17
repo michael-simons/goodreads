@@ -31,6 +31,7 @@ Either the way we work together or address some common misconceptions, for examp
 * [Richard Sennett - Together.The Rituals, Pleasures and Politics of Cooperation](https://yalebooks.yale.edu/book/9780300188288/together)
 * [Matthew Walker - Why We Sleep](https://www.gatesnotes.com/Books/Why-We-Sleep)
 * [Robin DiAngelo - White Fragility](https://www.tolerance.org/magazine/summer-2019/whats-my-complicity-talking-white-fragility-with-robin-diangelo) (A recommended read for all white developers and a good starter to understand why we need to work actively against racism and not manifest structural racism in our software based solutions)
+* [Jonathan Taplin - The End of Reality: How Four Billionaires are Selling a Fantasy Future of the Metaverse, Mars, and Crypto](https://www.sandmanbooks.com/book/9781541703155) (Proper eye-opener, with a lot of history and a semi-optimistic outlook)
 
 ## Work in general
 
