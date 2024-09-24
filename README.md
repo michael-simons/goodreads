@@ -60,14 +60,16 @@ Either the way we work together or address some common misconceptions, for examp
 
 ## My library
 
-`all.csv` contains an incomplete list of books in my library. The CSV file has 4 columns separated by `;`. 
+`all.csv` contains an incomplete list of books in my library. The CSV file has 6 columns separated by `;`. 
 
-| Name   | Description                                                   |
-|--------|---------------------------------------------------------------|
-| Author | One or more authors, `last name, first name` separated by `&` |
-| Title  | Title of the book                                             |
-| Type   | R, S, C (Roman (Fiction), Sachbuch (Non-Fiction), Comic)      |
-| State  | R, U (Read, Unread)                                           |
+| Name         | Description                                                   |
+|--------------|---------------------------------------------------------------|
+| Author       | One or more authors, `last name, first name` separated by `&` |
+| Title        | Title of the book                                             |
+| Type         | R, S, C (Roman (Fiction), Sachbuch (Non-Fiction), Comic)      |
+| State        | R, U (Read, Unread)                                           |
+| Last read on | Last time I read the book                                     |
+| Emoji rating | My very subjective rating                                     |
 
 ### Interacting with the CSV file
 
@@ -96,6 +98,19 @@ CREATE TABLE books AS SELECT * FROM read_csv('https://raw.githubusercontent.com/
 -- Save the result (overwriting all.csv and sorting it on the way)
 COPY (SELECT * FROM books ORDER BY author COLLATE de ASC, title COLLATE de ASC) TO 'all.csv' WITH (header true);
 ````
+
+Of course, a one shot query like the one above printing all books by Stephen King, is possible too:
+
+```
+duckdb --noheader --list -s "
+SELECT title FROM read_csv('https://raw.githubusercontent.com/michael-simons/goodreads/master/all.csv', header=true, auto_detect=true)
+WHERE author like '%King%' ORDER by title"
+```
+
+> [!TIP]
+> Shameless self-advertising: I wrote a book about DuckDB with a couple of friends, called DuckDB in Action and it's available at [Manning](https://www.manning.com/books/duckdb-in-action) or on [Amazon](https://www.amazon.de/Duckdb-Action-Mark-Needham/dp/1633437256/).
+> If you like some nice SQL, Python and Java, have a look.
+
 
 #### Using Neo4j
 
