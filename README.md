@@ -60,7 +60,7 @@ Either the way we work together or address some common misconceptions, for examp
 
 ## My library
 
-`all.csv` contains an incomplete list of books in my library. The CSV file has 6 columns separated by `;`. 
+`all.csv` contains an incomplete list of books in my library. The CSV file has 6 columns separated by `,`. 
 
 | Name         | Description                                                   |
 |--------------|---------------------------------------------------------------|
