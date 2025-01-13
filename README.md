@@ -15,6 +15,7 @@
 * [Marianne Bellotti - Kill It With Fire](https://nostarch.com/kill-it-fire)
 * [DevOps Tools for Java Developers (Various authors)](https://www.oreilly.com/library/view/devops-tools-for/9781492084013/)
 * [Dan McQuillan - Resisting AI, An anti-fascist approach to artificial intelligence](https://bristoluniversitypress.co.uk/resisting-ai) (One of the most important books in the field of AI in 2023 and later)
+* [John Romero - DOOM Guy: Life in First Person ](https://romero.com/shop/p/doomguy) (Great insights into quite a different part of our industry than the one I am participating in. Great focus on positive aspects, reassuring that there are humble engineers still in the industry)
 
 ## Problemsolver
 
