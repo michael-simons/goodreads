@@ -16,7 +16,7 @@
 * [DevOps Tools for Java Developers (Various authors)](https://www.oreilly.com/library/view/devops-tools-for/9781492084013/)
 * [Dan McQuillan - Resisting AI, An anti-fascist approach to artificial intelligence](https://bristoluniversitypress.co.uk/resisting-ai) (One of the most important books in the field of AI in 2023 and later)
 * [John Romero - DOOM Guy: Life in First Person ](https://romero.com/shop/p/doomguy) (Great insights into quite a different part of our industry than the one I am participating in. Great focus on positive aspects, reassuring that there are humble engineers still in the industry)
-
+* [James Stanier - Become an Effective Software Engineering Manager](https://pragprog.com/titles/jsengman/become-an-effective-software-engineering-manager/?ref=blog.pragmaticengineer.com) (See [commit as minireview](https://github.com/michael-simons/goodreads/commit/d6ddd24c212bf70003fcba01e2fe7219475e6eee))
 ## Problemsolver
 
 I'd call those books "Problemsolver". You might not read them from front to back but as a reference for specific problems. 
